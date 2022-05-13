@@ -1,4 +1,4 @@
-let numeroMeme = Math.floor(Math.random() * 30) + 1;
+let numeroMeme = Math.floor(Math.random() * 29) + 1;
 document.getElementById("meme").src="./Memes/Día del plátano " + numeroMeme + ".png";
 
 let countDownDate = new Date("May 14, 2022 19:45:00").getTime();
